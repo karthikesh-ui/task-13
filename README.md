@@ -1,1 +1,11 @@
-# task-13
+
+AIM: To create an efficient and flexible digital tool that generates true random dice rolls for gaming, probability experiments, and educational purposes, replicating and expanding upon the functionality of physical dice in a virtual environment. This function returns a list of integers representing the outcome of rolling num_dice dice, each with sides sides. Let me know if you want to extend this for batch rolls, weighted probabilities, or graphical output.
+Algorithm:
+1.Start the application and prompt the user for the number of dice, sides per die, and trials.
+2.Validate user inputs to ensure they are positive integers.
+3.Use NumPy to generate random integers for each dice roll over the specified number of trials.
+4.Store all roll results in an array for further analysis.
+5.Display individual roll results for a selected trial.
+6.Optionally, represent results using ASCII art per die roll.
+7.Analyze roll data to calculate frequency and distributions.
+8.Visualize distributions using a histogram for user interpretation.
